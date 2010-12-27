@@ -1,0 +1,11 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3381
+
+Parses emacs modelines and attempts to set the equivalent vim options.  For example, the following:
+
+// # -*- mode: C++; tab-width: 2 -*-
+
+Will be interpreted the same as the following:
+
+// # vim:ft=cpp:sw=2:sts=2:ts=2:
+
+The source for this plugin is at https://github.com/sfiera/vim-emacsmodeline
